@@ -1,0 +1,27 @@
+/* Content Book ⇄ Produksi Konten ⇄ Akun (build 20261122.1) — hanya bagian yang diperbarui */
+.cbk-entry{margin:10px 0 12px;padding:12px 14px;border-radius:16px;background:linear-gradient(135deg,#1c1b20,#3a3128);color:#f4ecd8;display:flex;align-items:center;gap:12px;box-shadow:0 8px 20px -12px #000a;border:1px solid #b08d5766}
+.cbk-entry .cbk-ic{flex:none;width:40px;height:40px;border-radius:12px;background:linear-gradient(#d8bd84,#a8864f);display:grid;place-items:center;color:#1a1409}
+.cbk-entry .cbk-ic .mi{width:22px;height:22px}
+.cbk-entry .cbk-tx{flex:1;min-width:0;font-size:11px;line-height:1.4;opacity:.85}
+.cbk-entry .cbk-tx b{display:block;font-size:13px;letter-spacing:.06em;color:#f0dcae}
+.cbk-entry button{flex:none;border:0;border-radius:12px;padding:10px 14px;font:700 12px/1 inherit;background:linear-gradient(#d8bd84,#a8864f);color:#1a1409;cursor:pointer;touch-action:manipulation}
+.cbk-open-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin:0 0 10px;padding:12px;border:0;border-radius:14px;font-weight:800;font-size:13px;background:linear-gradient(135deg,#2a2630,#4a3b26);color:#f0dcae;cursor:pointer;touch-action:manipulation}
+.cbk-open-btn .mi{width:18px;height:18px}
+.am-konten-title.cbk-title{font-weight:700;line-height:1.4;padding:2px 0;word-break:break-word}
+.cbk-drafts{margin:10px 0 0;border:1px dashed #cbd5e1;border-radius:12px;padding:8px 10px;font-size:12px;color:#475569}
+.cbk-drafts summary{cursor:pointer;font-weight:700}
+.cbk-draft{display:flex;align-items:center;gap:8px;justify-content:space-between;padding:6px 0;border-top:1px solid #e2e8f0;margin-top:6px}
+.cbk-draft span{flex:1;min-width:0;word-break:break-word}
+
+/* Foto akun di Content Book = foto akun M.C.F.A PROJECT (berkas yang sama; cincin & titik fokus mengikuti 06-avatar-ring.css) */
+#cb .cbav{display:block;border-radius:50%;object-fit:cover;object-position:50% 25%;background:#0b0b0d;flex:none;border:2px solid #fffdf8;box-shadow:0 0 0 2px #b08d57,0 6px 14px -6px #000c}
+#cb .acc .cbav{width:64px;height:64px;margin:0 auto}
+#cb .top .cbav.sm{width:38px;height:38px;border-width:1.5px;box-shadow:0 0 0 1.5px #b08d57}
+#cb .cbav[data-p="ayla"]{object-position:50% 18%}
+#cb .cbav[data-p="alley"]{object-position:50% 30%}
+#cb .cbav[data-p="fathulmeme"]{object-position:50% 12%}
+#cb .cbav[data-p="kpc"]{object-position:50% 40%}
+#cb .cbav[data-p="lol"]{object-position:50% 30%}
+#cb .cbav[data-p="okk"]{object-position:50% 30%}
+#cb .cbav[data-p="cne"]{object-position:50% 45%}
+#cb .cbav[data-p="zona"]{object-fit:contain;object-position:50% 50%}
